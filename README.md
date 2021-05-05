@@ -12,7 +12,7 @@ STEPS TO RUN PROJECT :
      > it will generate a app password marked in yellow color > copy it
 7. Now go to project > open application.properties file under source/main/resources folder
      > under spring.mail.username add the email id from which u want to send email (ie email id for which we have generated App password)
-     > unde spring.mail.password add the generated app password
+     > under spring.mail.password add the generated app password
      > under receiverMailId add the mail id on which you want to get notification
      > under districtId  you need to add your district id (find district id from cowin website ..select your state and district > open chrome developer tools > network tab
      > now hit enter > you will find district id in api call url ...ex: calendarByDistrict?district_id=686&date=05-05-2021
