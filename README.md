@@ -16,11 +16,11 @@ STEPS TO RUN PROJECT :
      > under receiverMailId add the mail id on which you want to get notification
      > under districtId  you need to add your district id (find district id from cowin website ..select your state and district > open chrome developer tools > network tab
      > now hit enter > you will find district id in api call url ...ex: calendarByDistrict?district_id=686&date=05-05-2021
- 8. Now to run from eclipse :
+8. Now to run from eclipse :
     > open ApointmentNotifier.java file under src/main/java folder > right click > run as 1 java application 
     > (BOOM !!! Now project is up and running and it will send email notification as soon as vaccine is available for 18+ in your district)
     > if currently no slots are available then it will wait for 5 mins and again check.
- 9   To run project from CMD :
+9.  To run project from CMD :
     >  open eclipse > right click on project > Properties > copy project location under resource
     >  open CMD > cd "paste path here" > enter
     >  Type command "mvn install" > after running it will create a jar file with name "VaccineAppointmentNotifier-0.0.1-SNAPSHOT.jar" in "\VaccineAppointmentNotifier\VaccineAppointmentNotifier\target" location
