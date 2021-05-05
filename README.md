@@ -32,3 +32,4 @@ STEPS TO RUN PROJECT :
   
   NOTE : This service will search for appointment availability for given district every 5 mins until an appointment for 18+ is found and it will mail data for next 7 days starting from today
   
+  NOTE: If u want notification for vaccines for 45+ age group then open AppointmentNotifier.java > in line 65 replace 18 with 45 > save and then run the service.
